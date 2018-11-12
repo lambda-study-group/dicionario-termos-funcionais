@@ -1,5 +1,7 @@
 ## Dicionário de termos funcionais traduzidos
 
+Após diversas threads de discussão no grupo do telegram foi visto necessário um dicionário de traduções curados e atribuidos a um nível de qualidade de tradução.
+
 #### Tabela de tradução
 - :white_check_mark: Tradução correta
 - :interrobang: Tradução popular(não necessáriamente certa)
@@ -15,7 +17,7 @@ Pode se referir a expressões matemáticas ou algebricas. Geralmente com o intui
 
 **Statement** 
 
-:white_check_mark: Declaração
+- :white_check_mark: Declaração
 
 Declarações funcionam ou como controle do fluxo de controle do programa como por exemplo, condicionais ou loops ou como meio de alterar o estado(memória).
 
@@ -23,30 +25,31 @@ Declarações funcionam ou como controle do fluxo de controle do programa como p
 
 **Assignment**
 
-:white_check_mark: Atribuição
+- :white_check_mark: Atribuição
 
 **State**
 
-:white_check_mark: Estado
+- :white_check_mark: Estado
 
 **Invocation**
 
-:white_check_mark: Invocação
+- :white_check_mark: Invocação
 
 **Evaluation / Evaluate**
 
-:white_check_mark: Avaliação / evaliar
-:interrobang: Avaluação / Avaluar
+- :white_check_mark: Avaliação / evaliar
+- :interrobang: Avaluação / Avaluar
 
 **Lazy evaluation**
 
-:white_check_mark: Avaliação ociosa
-:x: Avaliação preguiçosa
+- :white_check_mark: Avaliação ociosa
+- :x: Avaliação preguiçosa
 
 **Right-hand**
 
-Mão direita
-Lado direito
+- Mão direita
+- Lado direito
+- Do lado direito?
 (nao sei dizer)
 
 ### TODO
