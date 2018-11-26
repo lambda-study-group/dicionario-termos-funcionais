@@ -86,3 +86,7 @@ A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, s
 - :x: Mão direita / Lado direito / Do lado direito
 
 ### TODO
+
+- monad
+- monoid
+- curse of dimensionality
