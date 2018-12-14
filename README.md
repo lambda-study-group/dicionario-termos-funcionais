@@ -17,12 +17,16 @@ Após diversas threads de discussão no grupo do telegram foi visto necessário 
 - [Evaluation / Evaluate](#evaluation-/-evaluate)
 - [Expression](#expression)
 - [Garbage Collector](#garbage-collector)
+- [Guards](#guards)
+- [Head](#head)
 - [Invocation](#invocation)
 - [Lazy Evaluation](#lazy-evaluation)
+- [Pattern Match](#pattern-match)
 - [Right-hand](#right-hand)
 - [RunTime Environment](#runtime-environment)
 - [State](#state)
 - [Statement](#statement)
+- [Tail](#tail)
 
 --------------------------------
 
@@ -71,6 +75,14 @@ Sub-sistema de ambiente de execução de uma linguagem de programação que faz 
 s-expression
 A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, símbolos separados por espaços, e operadores prefixos (e não infixos como na aritmética convencional). A fórmula de Pitágoras pode ser escrita assim em LISP: `(sqrt (+ (* a a) (* b b)))`.
 
+#### Guards
+
+- :white_check_mark: Guardas
+
+#### Head
+
+- :white_check_mark: Cabeça
+
 #### Invocation
 
 - :white_check_mark: Invocação
@@ -79,6 +91,10 @@ A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, s
 
 - :white_check_mark: Avaliação ociosa
 - :x: Avaliação preguiçosa
+
+#### Pattern Matching
+
+- :white_check_mark: Casamento de Padrões
 
 #### Right hand
 
@@ -103,6 +119,11 @@ Sistema de suporte que permite a execução de programas em linguagens que não 
 Declarações funcionam ou como controle do fluxo de controle do programa como por exemplo, condicionais ou loops ou como meio de alterar o estado(memória).
 
 *(1.6 https://libgen.pw/item/detail/id/5a1f04f13a044650f5087e0a)*
+
+#### Tail
+
+- :white_check_mark: Cauda
+- :x: Rabo
 
 ### TODO
 
