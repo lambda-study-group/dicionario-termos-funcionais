@@ -95,7 +95,7 @@ A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, s
 - :x: Tipo
 
 "Kind" é um termo normalmente utilizado em sistemas de tipos para designar o "tipo" dos tipos. 
-Apesar de "Kind" e "Type" serem semelhantes (tal como "tipo" e "espécie"), "Kind" não pode ser 
+Apesar de "Type" e "Kind" serem semelhantes (tal como "tipo" e "espécie"), "Kind" não pode ser 
 traduzido como "tipo" pois essa já é a tradução de "Type", e, no contexto de sistema de tipos, 
 um "Kind" não é um "Type". O conceito de "Kind" é utilizado no sistema de tipos de Haskell.
 
