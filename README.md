@@ -20,10 +20,12 @@ Após diversas threads de discussão no grupo do telegram foi visto necessário 
 - [Guards](#guards)
 - [Head](#head)
 - [Invocation](#invocation)
+- [Kind (Type System)](#kind-type-system)
 - [Lazy Evaluation](#lazy-evaluation)
 - [Pattern Match](#pattern-match)
 - [Right-hand](#right-hand)
 - [RunTime Environment](#runtime-environment)
+- [Sort (Type System)](#sort-type-system)
 - [State](#state)
 - [Statement](#statement)
 - [Tail](#tail)
@@ -87,6 +89,20 @@ A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, s
 
 - :white_check_mark: Invocação
 
+#### Kind (Type System)
+
+- :white_check_mark: Espécie
+- :x: Tipo
+
+"Kind" é um termo normalmente utilizado em sistemas de tipos para designar o "tipo" dos tipos. 
+Apesar de "Kind" e "Type" serem semelhantes (tal como "tipo" e "espécie"), "Kind" não pode ser 
+traduzido como "tipo" pois essa já é a tradução de "Type", e, no contexto de sistema de tipos, 
+um "Kind" não é um "Type". O conceito de "Kind" é utilizado no sistema de tipos de Haskell.
+
+Note que a escolha da palavra "espécie" foi feita para não entrar em conflito com outros conceitos
+(tal como classe, família ou grupo) e ao mesmo tempo fazer sentido perante à tradução de "Sort" 
+(*ver [Sort](#sort-type-system)*).
+
 ##### Lazy evaluation
 
 - :white_check_mark: Avaliação ociosa
@@ -107,6 +123,21 @@ A sintaxe de expressões da linguagem LISP, formada por parêntesis aninhados, s
 - :x: Ambiente de tempo de execução(?)
 
 Sistema de suporte que permite a execução de programas em linguagens que não tem compiladores para gerar código de máquina nativo. O ambiente de execução de linguagens interpretadas, como Python e Ruby, inclui o interpretador e a biblioteca-padrão da linguagem. Certas linguagens compiladas como Java, Closure e Kotlin dependem da máquina virtual Java (JVM) para executar seus binários.
+
+#### Sort (Type System)
+
+- :white_check_mark: Gênero
+- :x: Tipo
+
+"Sort" é um termo normalmente utilizado em sistemas de tipos para designar o "tipo" das "espécies" 
+(que por sua vez é o "tipo" dos tipos, *ver [Kind](#kind-type-system)*). 
+Apesar de "Type" e "Sort" serem semelhantes (tal como "tipo" e "gênero"), "Sort" não pode ser 
+traduzido como "tipo" pois essa já é a tradução de "Type", e, no contexto de sistema de tipos, 
+um "Sort" não é um "Type". O conceito de "Sort" é utilizado no sistema de tipos de Haskell.
+
+Note que a escolha da palavra "gênero" foi feita para não entrar em conflito com outros conceitos
+(tal como classe, família ou grupo) e ao mesmo tempo fazer sentido perante à tradução de "Kind" 
+(*ver [Kind](#kind-type-system)*).
 
 #### State
 
