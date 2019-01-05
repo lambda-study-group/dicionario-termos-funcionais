@@ -42,11 +42,18 @@ Número de argumentos que uma função aceita. Por exemplo, em Python a função
 
 #### Closure
 
-- :white_check_mark: Closure
+- :white_check_mark: Clausura
+- :x: Closure
 - :x: Clojure
 - :x: Fechamento
 
 Estrutura formada por uma função e um ambiente com variáveis necessários para a execução da função, mas não definidas no corpo da função -- chamadas variáveis livres ou não-locais. Uma linguagem só precisa implementar o mecanismo de closure se ela permite a definição de uma função dentro de outra, e permite que a função externa devolva a função interna como resultado. C e Pascal não precisam de closures; Scheme e Python precisam.
+
+#### Composable
+
+- :white_check_mark: Componível
+
+Diz-se de funções que se prestam bem à composição, que é a agregação de funções mais simples para criar outras, mais elaboradas.
 
 #### Environment
 
@@ -91,6 +98,14 @@ Sub-sistema de ambiente de execução de uma linguagem de programação que faz 
 - :white_check_mark: Avaliação ociosa
 - :x: Avaliação preguiçosa
 
+#### Monad
+
+- :white_check_mark: Mônada
+
+#### Monoid
+
+- :white_check_mark: Monoide
+
 #### Pattern Matching
 
 - :white_check_mark: Casamento de Padrões
@@ -126,6 +141,4 @@ Declarações funcionam ou como controle do fluxo de controle do programa como p
 
 ### TODO
 
-- monad
-- monoid
 - curse of dimensionality
