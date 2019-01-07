@@ -22,6 +22,8 @@ Após diversas threads de discussão no grupo do telegram foi visto necessário 
 - [Invocation](#invocation)
 - [Kind (Type System)](#kind-type-system)
 - [Lazy Evaluation](#lazy-evaluation)
+- [Monad](#monad)
+- [Monoid](#monoid)
 - [Pattern Match](#pattern-match)
 - [Right-hand](#right-hand)
 - [RunTime Environment](#runtime-environment)
