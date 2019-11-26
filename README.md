@@ -13,6 +13,8 @@ Após diversas threads de discussão no grupo do telegram foi visto necessário 
 - [Arity](#arity)
 - [Assignment](#assignment)
 - [Closure](#closure)
+- [Calculus of construction](#calculus-of-constructions)
+- [Continuation passing style](#continuation-passing-style)
 - [Environment](#environment)
 - [Evaluation / Evaluate](#evaluation-/-evaluate)
 - [Expression](#expression)
@@ -44,6 +46,10 @@ Número de argumentos que uma função aceita. Por exemplo, em Python a função
 
 - :white_check_mark: Atribuição
 
+#### Calculus of constructions
+
+- :white_check_mark: Cálculo de construções
+
 #### Closure
 
 - :white_check_mark: Clausura
@@ -52,6 +58,10 @@ Número de argumentos que uma função aceita. Por exemplo, em Python a função
 - :x: Fechamento
 
 Estrutura formada por uma função e um ambiente com variáveis necessários para a execução da função, mas não definidas no corpo da função -- chamadas variáveis livres ou não-locais. Uma linguagem só precisa implementar o mecanismo de closure se ela permite a definição de uma função dentro de outra, e permite que a função externa devolva a função interna como resultado. C e Pascal não precisam de closures; Scheme e Python precisam.
+
+#### Continuation passing style
+
+- :white_check_mark Estilo de passagem de continuação
 
 #### Composable
 
